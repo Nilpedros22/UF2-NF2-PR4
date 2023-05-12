@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+
+{% block contenido %}
+<div class="d-flex align-items-center d-flex justify-content-center align-items-center">
+    <h1 class="titulo2">Selecciona tu género</h1>
+</div>
+<div class="d-flex justify-content-center align-items-center" id="container">
+    <div class="row d-flex justify-content-center align-items-center">
+        <div class="col-md-5">
+            <div class="jumbotron">
+                <div class="card"><img
+                        src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/95e37d60-dbef-451b-92ec-5863dc44cc3b/sportswear-windrunner-chaqueta-primaloft-N9V50G.png"
+                        class="card-img-top" alt="Hombre">
+                    <div>
+                        <h1 class="card-title ">Hombre</h1>
+                        <p class="card-text">Accede a la nuestra amplia lista de productos para hombres.</p>
+                        <a href="hombre.html" class="btn btn-info text-white fw-semibold">Acceder</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-5">
+            <div class="jumbotron">
+                <div class="card"><img
+                        src="https://cdn.grupoelcorteingles.es/SGFM/dctm/MEDIA03/202012/10/00199444017018____3__640x640.jpg"
+                        class="card-img-top" alt="Mujer">
+                    <div>
+                        <h1 class="card-title1 ">Mujer</h1>
+                        <p class="card-text1">Accede a la nuestra amplia lista de productos para mujeres.</p>
+                        <a href="mujer.html" class="btn btn-info text-white fw-semibold">Acceder</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+{% endblock %}

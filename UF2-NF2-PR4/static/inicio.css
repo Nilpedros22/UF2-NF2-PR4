@@ -1,5 +1,5 @@
 body {
-    background-image: url('https://fondosmil.com/fondo/19871.jpg');
+    background-image: url('img/inicio.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -35,8 +35,8 @@ p {
 }
 
 #logo {
-    width: 75px;
-    height: 35px;
+    width: 65px;
+    height: 45px;
 }
 
 a {

@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+{% block contenido %}
+<form action="" method="post" class="needs-validation" novalidate="" autocomplete="off">
+    <div class="bg-info d-flex justify-content-center align-items-center vh-100">
+        <div class="bg-white p-5 rounded-5 text-secondary shadow" style="width: 25rem">
+            <div class="text-center fs-1 fw-bold">Formulario de contacto</div>
+            <div class="input-group mt-4">
+                <input class="form-control bg-light" type="text" name="nombre" placeholder="Nombre" required>
+            </div>
+            <div class="input-group mt-1">
+                <input class="form-control bg-light" type="email" name="email" placeholder="Correo electrónico"
+                       required>
+            </div>
+            <div class="input-group mt-1">
+                <textarea class="form-control bg-light" name="mensaje" placeholder="Mensaje" rows="4"
+                          required></textarea>
+            </div>
+            <div>
+                <input type="submit" name="enviar" class="btn btn-info text-white w-100 mt-4 fw-semibold shadow-sm"
+                       value="Enviar">
+            </div>
+        </div>
+    </div>
+</form>
+{% endblock %}
